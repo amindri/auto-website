@@ -1,0 +1,12 @@
+.alwis-auto-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.bd-navbar {
+  padding: 0 !important;
+  position: sticky !important;
+  min-height: 10vw;
+  background-color: red;
+}
+
