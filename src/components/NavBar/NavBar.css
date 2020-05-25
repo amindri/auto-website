@@ -10,3 +10,14 @@
   background-color: red;
 }
 
+.navbar-nav a {
+  color: #900311;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+.navbar-nav li {
+  border-left: 6px #800000;
+
+}
+
