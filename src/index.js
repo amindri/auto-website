@@ -16,6 +16,19 @@ ReactDOM.render(
         <Routes/>
     </BrowserRouter>, document.getElementById('body'));
 
+var homeLink = document.getElementById('navHome').children[0];
+homeLink.setAttribute('class', 'active');
+
+var elements = document.getElementsByTagName('a');
+for (var i=0; i<elements.length; i++)
+{
+    var el = elements[i];
+    var existingClasses = el.getAttribute("class");
+    var allClasses = existingClasses != null ? existingClasses + " nav-link" : "nav-link";
+    el.setAttribute( "class", allClasses);
+}
+
+
 // ReactDOM.render(<Carousle/>, document.getElementById('carousle'));
 // ReactDOM.render(
 //     <React.StrictMode>

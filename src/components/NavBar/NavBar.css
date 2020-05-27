@@ -1,23 +1,20 @@
 .alwis-auto-logo {
+  padding: 0 !important;
   max-width: 100%;
-  height: auto;
+}
+
+.logo-image {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
 
 .bd-navbar {
-  padding: 0 !important;
-  position: sticky !important;
-  min-height: 10vw;
-  background-color: red;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: #282c34;
 }
 
-.navbar-nav a {
-  color: #900311;
-  font-size: 1.5rem;
-  font-weight: 550;
+.navbar {
+  height: 65px !important;
 }
-
-.navbar-nav li {
-  border-left: 6px #800000;
-
-}
-

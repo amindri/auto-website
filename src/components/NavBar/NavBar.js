@@ -4,36 +4,37 @@ import './NavBar.css';
 import {Link} from "react-router-dom";
 
 function NavBar() {
-
     return (
+        <header>
 
-            <header>
-            <nav className="bd-navbar navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand navbar-dark bd-navbar">
+                <div className="container-fluid">
 
-                <a className="navbar-brand" href='#'>
-                    <img src={logo} className='alwis-auto-logo'/>
-                </a>
-
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active nav-link">
-                            <Link  to="/">
-                                Home
-                            </Link>
+                    <div class="navbar-header">
+                        <a className="navbar-brand alwis-auto-logo" href='#'>
+                            <img src={logo} className='logo-image' alt="aar-logo"/>
+                        </a>
+                    </div>
+                    <ul className="mr-auto navbar-nav">
+                        <li id="navHome" className="nav-item">
+                            <Link to="/">Home</Link>
                         </li>
-                        <li className="nav-item nav-link">
+                        <li className="nav-item">
                             <Link to="/ourservices">Our Services</Link>
                         </li>
-                        <li className="nav-item nav-link">
+                        <li className="nav-item">
                             <Link to="/contactus">Contact Us</Link>
                         </li>
-                        <li className="nav-item nav-link">
+                        <li className="nav-item">
                             <a target="_blank" href="https://alwis.simplybook.me/v2/">Book Now</a>
                         </li>
                     </ul>
+
+
                 </div>
             </nav>
-            </header>
+
+        </header>
 
     );
 }
