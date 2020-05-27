@@ -19,7 +19,7 @@ ReactDOM.render(
 var homeLink = document.getElementById('navHome').children[0];
 homeLink.setAttribute('class', 'active');
 
-var elements = document.getElementsByTagName('a');
+var elements = document.getElementById('navigation').getElementsByTagName('a');
 for (var i=0; i<elements.length; i++)
 {
     var el = elements[i];

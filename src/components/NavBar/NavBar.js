@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <header>
 
-            <nav className="navbar navbar-expand navbar-dark bd-navbar">
+            <nav id="navigation" className="navbar navbar-expand navbar-dark bd-navbar">
                 <div className="container-fluid">
 
                     <div class="navbar-header">

@@ -1,0 +1,39 @@
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 78px;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-family: fantasy;
+}
+
+.header-text h2 span {
+    background-color: transparent;
+    padding: 10px;
+}
+
+
+.btn-theme {
+    font-size: 16px;
+    padding: 15px 30px;
+    display: inline-block;
+    background-color: #F37043 !important;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #ff7700;
+    border-color: #fff;
+}
