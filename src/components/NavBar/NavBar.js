@@ -10,7 +10,7 @@ function NavBar() {
             <nav id="navigation" className="navbar navbar-expand navbar-dark bd-navbar">
                 <div className="container-fluid">
 
-                    <div class="navbar-header">
+                    <div className="navbar-header">
                         <a className="navbar-brand alwis-auto-logo" href='#'>
                             <img src={logo} className='logo-image' alt="aar-logo"/>
                         </a>
