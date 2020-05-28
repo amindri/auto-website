@@ -6,7 +6,7 @@ function ContactUs()
     return(
         <div className="container-fluid">
             <div className="row">
-                <div className="col-6">
+                <div className="col-sm-6">
                     <div className="contact-details jumbotron justify-content-md-center">
                     <div><h3>Address:</h3></div>
                     <div>
@@ -31,7 +31,7 @@ function ContactUs()
                     <div><p>info@alwisautorepairs.com.au</p></div>
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-sm-6">
                     <img src={map} className="map img-fluid" alt="location"/>
                 </div>
             </div>

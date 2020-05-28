@@ -12,7 +12,7 @@ function OurServices() {
             </div>
             <div>
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-sm-4">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">
@@ -26,7 +26,7 @@ function OurServices() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-sm-4">
                         <div className="card">
                             <div className="card-body">
 
@@ -40,7 +40,7 @@ function OurServices() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-sm-4">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">
@@ -56,7 +56,7 @@ function OurServices() {
                 </div>
                 <div className="row"/>
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-sm-4">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">
@@ -72,7 +72,7 @@ function OurServices() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-sm-4">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title">
