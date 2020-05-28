@@ -17,4 +17,5 @@
 
 .navbar {
   height: 65px !important;
+  z-index:10;
 }
