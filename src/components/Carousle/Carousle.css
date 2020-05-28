@@ -7,22 +7,22 @@
     color: #fff;
 }
 
-.header-text h2 {
-    font-size: 78px;
+.header-text h1{
+    text-align: center;
+    /*font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));*/
+    /*line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));*/
+    font-size: 8vw;
     text-transform: uppercase;
-    line-height: 90px;
-    font-family: fantasy;
 }
 
-.header-text h2 span {
-    background-color: transparent;
-    padding: 10px;
+.header-text h5{
+    text-align: center;
+    font-size: 2vw;
 }
 
 
 .btn-theme {
-    font-size: 16px;
-    padding: 15px 30px;
+    font-size: 2vw;
     display: inline-block;
     background-color: #F37043 !important;
     color: #fff;
