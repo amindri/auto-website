@@ -32,7 +32,7 @@ function ContactUs()
                     </div>
                 </div>
                 <div className="col-6">
-                    <img src={map} className="map" alt="location"/>
+                    <img src={map} className="map img-fluid" alt="location"/>
                 </div>
             </div>
         </div>
