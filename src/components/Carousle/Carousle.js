@@ -18,9 +18,9 @@ function Carousle () {
                     <div className="header-text">
                         <div className="text-center">
                             <h2>
-                                <span>Mechanical repairs</span>
+                                <span>alwis auto repairs</span>
                             </h2>
-                            <h5>for all makes and models</h5>
+                            <h5>for vehicles of all makes and models</h5>
                             <br/>
                             <a className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
 
@@ -48,7 +48,7 @@ function Carousle () {
                             <h2>
                                 <span>FRIENDLY SERVICE</span>
                             </h2>
-                            <h3>CALL 1234567890</h3>
+                            <h3>CALL 082612856</h3>
                             <br/>
                             <a className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
                         </div>
