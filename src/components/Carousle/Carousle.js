@@ -20,9 +20,9 @@ function Carousle () {
                             <h2>
                                 <span>alwis auto repairs</span>
                             </h2>
-                            <h5>for vehicles of all makes and models</h5>
+                            <h5>FOR VEHICLES OF ALL MAKES AND MODELS</h5>
                             <br/>
-                            <a className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
+                            <a target="_blank" className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
 
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Carousle () {
                                 <span>European Cars</span>
                             </h2>
                             <br/>
-                            <a className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
+                            <a target="_blank" className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ function Carousle () {
                             </h2>
                             <h3>CALL 082612856</h3>
                             <br/>
-                            <a className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
+                            <a target="_blank" className="btn-lg btn-theme" href="https://alwis.simplybook.me/v2/">Book Now</a>
                         </div>
                     </div>
                 </div>
