@@ -1,0 +1,9 @@
+.map {
+    border: grey;
+    width: fit-content;
+    height: fit-content;
+}
+
+.contact-details {
+    margin-bottom: 0 !important;
+}
