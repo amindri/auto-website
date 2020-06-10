@@ -4,13 +4,11 @@ import "./OurServices.css";
 function OurServices() {
     return (
 
-            <div style={{'background-color': '#f6f6f6'}}>
-
-            <div className="container">
-            <div className="row">
+            <div className="container-fluid">
+            <div className="container justify-content-center">
                 <h3 className="title">At Alwis Auto Repairs we undertake mechanical repairs to cars of all makes and models. However, European cars are our speciality</h3>
             </div>
-            <div>
+            <div className="container">
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="card">
@@ -88,7 +86,7 @@ function OurServices() {
                 </div>
             </div>
         </div>
-        </div>
+
     );
 }
 

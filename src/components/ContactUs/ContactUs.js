@@ -31,7 +31,7 @@ function ContactUs()
                     <div><p>info@alwisautorepairs.com.au</p></div>
                     </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-sm-6" style={{"text-align": "center","vertical-align": "middle"}}>
                     <img src={map} className="map img-fluid" alt="location"/>
                 </div>
             </div>

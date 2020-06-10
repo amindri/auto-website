@@ -13,7 +13,7 @@ ReactDOM.render(
     <BrowserRouter>
         <NavBar/>
         <Routes/>
-    </BrowserRouter>, document.getElementById('body'));
+    </BrowserRouter>, document.getElementById('header'));
 
 var homeLink = document.getElementById('navHome').children[0];
 homeLink.setAttribute('class', 'active');

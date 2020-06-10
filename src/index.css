@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  background-color: #f6f6f6;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer {
+  background-color: #282c34;
+}
+
+.container-fluid{
+  padding: 0 !important;
+}
+
+.service-hours{
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #363d45;
+}
+
+.service-hours p {
+  color: #f6f6f6;
+}
+
+.service-hours h2 {
+  color: #ffffff;
+}

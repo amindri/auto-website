@@ -3,7 +3,7 @@ import Carousle from "../Carousle/Carousle";
 
 function Home() {
     return (
-            <div>
+            <div className="container-fluid">
                 <Carousle/>
             </div>
 
